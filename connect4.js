@@ -6,6 +6,7 @@
  * column until a player gets four-in-a-row (horiz, vert, or diag) or until
  * board fills (tie)
  */
+//this is the only change i made 4.11 elvia
 
 const WIDTH = 7;
 const HEIGHT = 6;
@@ -149,7 +150,11 @@ function checkForWin() {
     // TODO: Check four cells to see if they're all legal & all color of current
     // player
 
-  }
+    /* wegot stuck here with a funky bug */
+
+   
+  
+}
 
   // using HEIGHT and WIDTH, generate "check list" of coordinates
   // for 4 cells (starting here) for each of the different
